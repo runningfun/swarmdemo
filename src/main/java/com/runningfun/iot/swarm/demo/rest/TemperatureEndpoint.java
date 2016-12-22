@@ -1,6 +1,6 @@
 package com.runningfun.iot.swarm.demo.rest;
 
-import business.DHTService;
+import com.runningfun.iot.swarm.demo.business.DHTService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

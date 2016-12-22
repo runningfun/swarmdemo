@@ -1,4 +1,4 @@
-package business;
+package com.runningfun.iot.swarm.demo.business;
 
 import javax.enterprise.context.ApplicationScoped;
 

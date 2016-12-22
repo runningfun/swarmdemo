@@ -13,4 +13,11 @@ public class HelloWorldEndpoint {
 	public Response doGet() {
 		return Response.ok("Hello from WildFly Swarm!").build();
 	}
+
+	@GET
+	@Produces("text/plain")
+	@Path("secured")
+	public Response getSecuredResource() {
+		return Response.ok("Hello from secured resource!").build();
+	}
 }

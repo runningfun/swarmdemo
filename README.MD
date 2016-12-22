@@ -1,0 +1,1 @@
+1. to run: mvn clean install && java -jar target/demo-swarm.jar
